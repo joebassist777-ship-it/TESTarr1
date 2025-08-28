@@ -46,6 +46,12 @@ public class A {
 //a1 = a;
 
 --------
+
+
+
+
+
+
 package arr3;
 
 import java.util.Arrays;
