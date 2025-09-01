@@ -79,6 +79,15 @@ B(){}
 	void b() {}
 	void b (int a) {}
 	void b (String a) {}
+
+
+
+ 
+//arr 세가지 종류
+ 	int [] c =new int [5]; //사이즈
+	int [] c2 = new int[] {1,2,3,4,5};
+	int [] c3={1,2,3,4,5};
+		
 	
 
 
