@@ -84,11 +84,55 @@ B(){}
 
  
 //arr 세가지 종류
- 	int [] c =new int [5]; //사이즈
+
+//static int [] c =new int [5];  //스테틱도 사용가능
+	int [] c =new int [5]; //사이즈
 	int [] c2 = new int[] {1,2,3,4,5};
 	int [] c3={1,2,3,4,5};
-		
+//arr 세가지 종류
+public static void main(String[] args) {
+	System.out.println(c[5]);
+					// (new Arr1().c[5]);
+ 
+//여기서 C는 스테틱이 없으면 애러가 난다
+}
+}
+
+
+
+
+
+package Cart;
+public class Cart1 {
+	private Item [] iteamArr;
+	private int idx = 0;
 	
+	Cart1(int size){
+		iteamArr=new Item[size];
+	}
+	public void put(Item item) {
+		iteamArr[idx]= item;
+	}
+}
 
 
+
+
+=======
+
+
+package Cart;
+
+public class Item {
+	private String  name;
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+
+		
+		
 	
