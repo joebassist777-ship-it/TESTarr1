@@ -133,6 +133,34 @@ public class Item {
 		return name;
 	}
 
+
+
++++++++++++++++++++++++++++++++++++++
+package Ka;
+public class Everland {
+	    public static void main(String[] args) {
+	    	Ticket[] tArr = new Ticket[54300];
+	    	Ticket[] adult = new Ticket [54300];
+	    	Ticket[] youth = new Ticket [54300];
+	    	Ticket[] baby = new Ticket [54300];
+	        long sum = 0; // float 대신 long 사용
+	        for (int i = 0; i < 54300; i++) {
+	            sum += 80000;
+	            tArr[i] = new Ticket();
+	            System.out.printf("%d 번째 손님 입장 (어른, %d원)%n", (i + 1), 80000);
+	        }
+	        System.out.printf("총 수익: %,d원%n", sum); // %,d로 천 단위 구분 기호 추가
+		}	            	        
+	}
+
+
+//티켓 클레스 필요
+
+
+
+
+
+
 		
 		
 	
